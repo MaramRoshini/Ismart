@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_up">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/proximanovaregularwebfont"
+        android:text="Already have an account?"
+        android:textColor="@color/semi_white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/sgn"
+        android:layout_width="48dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:fontFamily="@font/proximanovaboldwebfont"
+        android:text="Sign In"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="InvalidId" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="230dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+        app:srcCompat="@drawable/ic_logo"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="5dp"
+        android:visibility="gone"
+        android:id="@+id/fac"
+        android:layout_height="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59000003"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/gg_button1"
+            android:layout_width="361dp"
+            android:layout_height="52dp"
+            android:alpha="0.8"
+            android:backgroundTint="@color/gg"
+            android:inputType="textCapSentences"
+            android:text="@string/gg"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/fb_button1"
+            android:layout_width="361dp"
+            android:layout_height="52dp"
+            android:alpha="0.8"
+            android:backgroundTint="@color/fb"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:text="@string/fb"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/su_button1"
+            android:layout_width="361dp"
+            android:layout_height="52dp"
+            android:alpha="0.8"
+            android:backgroundTint="@color/su"
+            android:inputType="textCapSentences"
+            android:text="@string/su"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

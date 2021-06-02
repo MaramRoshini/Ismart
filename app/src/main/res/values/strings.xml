@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ismart</string>
+    <string name="ob_header1">Fuel ping</string>
+    <string name="ob_header2">Intelligent tracking</string>
+    <string name="ob_header3">Smart start</string>
+
+    <string name="ob_get_started">Continue</string>
+    <string name="ob_desc1">Tracks the amount of fuel and estimates the distance it can cover</string>
+    <string name="ob_desc2">Keeps an eye on where your vehicle is located</string>
+    <string name="ob_desc3">Starts your bike with iSmart assistant</string>
+    <string name="ismart">iSmart</string>
+    <string name="facebook_app_id">283126146751664</string>
+    <string name="fb_login_protocol_scheme">fb283126146751664</string>
+    <string name="fb">Sign up with Facebook</string>
+    <string name="gg">Sign up with Google</string>
+    <string name="su">Sign up</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_password">Create password</string>
+    <string name="enter_mail">Enter mail</string>
+    <string name="fb_in">Log In with Facebook</string>
+    <string name="gg_in">Log In with Google</string>
+    <string name="log_in">Log In</string>
+</resources>

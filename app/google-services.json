@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "625766154134",
+    "project_id": "ismart-7dbe3",
+    "storage_bucket": "ismart-7dbe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625766154134:android:9dbbb8779de6ac176567b7",
+        "android_client_info": {
+          "package_name": "com.example.ismart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625766154134-vrcioarteuqf04qe8us0jhvs3s0kr0sv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ismart",
+            "certificate_hash": "86e95616ba66766fcbe4e724dfeb49b419eb5dd1"
+          }
+        },
+        {
+          "client_id": "625766154134-591ev7978tmjqeee2n0i8ie6kn8blk7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAL_cLqcbdKlpCrkI6C63fVoyMhCyXbaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625766154134-591ev7978tmjqeee2n0i8ie6kn8blk7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
